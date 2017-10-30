@@ -10,7 +10,7 @@ function setup() {
 	circlePoints = GenerateCirclePoints(radius);
 	innerTriangle = GenerateShapePoints(new Array(0, 120, 240), new Array(radius, radius, radius));
 	let diagonal = Math.sqrt(radius * radius + radius * radius);
-	interpolationHelp = GenerateShapePoints(new Array(45, 130, 200, 330), new Array(diagonal * 0.5, diagonal * 2, diagonal * 1.5, diagonal));
+	interpolationHelp = GenerateShapePoints(new Array(45, 130, 200, 330), new Array(diagonal * 0.5, diagonal * 2, diagonal * 1.5, diagonal)); //This shape can be anything you want
 }
 
 function draw() {
